@@ -1,0 +1,112 @@
+a {
+    text-decoration: none;
+    color: rgb(88, 37, 37);
+}
+
+.card_wrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+.card{
+    width: 16rem;
+    background-color: #f6fdd5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    border-radius: 5px;
+    box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.3);
+}
+
+.card .card_img{
+    width: 100%;
+    height: 10rem;
+    border-radius: 5px;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+}
+
+.profile_pic {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-top: -7rem;
+    object-fit: cover;
+    z-index: 1;
+    border: .7rem solid #f6fdd5;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 5px 0;
+}
+.job_title{
+    color: #777;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.about{
+    margin: 5px 2px;
+    font-style: italic;
+    text-align: center;
+    color: #333;
+}
+
+.btn{
+    padding: .5rem 2.5rem;
+    background-color: #445ae3;
+    border-radius: 2rem;
+    margin: 5px 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all .5s;
+    border: none;
+}
+.btn:hover{
+    transform: translateY(.4rem);
+    box-shadow: .5rem .5rem 2rem rgba(0,0,0,0.2);
+}
+
+.btn:active{
+    transform: translateY(0);
+    box-shadow: none;
+}
+.social_media{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.137);
+}
+.social_media i{
+    font-size: 2rem;
+}
+.fa-facebook-square{
+color: #3b5999;
+}
+
+.fa-twitter-square{
+    color: #00acee;
+}
+.fa-linkedin{
+    color: #0e76a8;
+}
+.fa-instagram-square{
+    color: #fa611a;
+}
+
+.fa-facebook-square:hover,
+.fa-instagram-square:hover,
+.fa-linkedin:hover,
+.fa-twitter-square:hover{
+    color: #445ae3;
+    transition: all .5s;
+    transform: translateY(5%);
+}

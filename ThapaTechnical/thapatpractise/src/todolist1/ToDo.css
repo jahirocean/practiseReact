@@ -1,0 +1,130 @@
+/* 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 137, 58, 0.973);
+}
+.center_div {
+  margin: 40px 0;
+  width: 350px;
+  height: 80vh;
+  border-radius: 5px;
+  box-shadow: 5px 5px 25px -10px rgba(0, 0, 0, 0.5);
+  background-color: #f4f4f4;
+}
+h1 {
+  background-color: crimson;
+  text-align: center;
+  color: #fff;
+  padding: 3px;
+}
+input {
+  width: 70%;
+  height: 30px;
+  margin: 8px;
+
+  text-align: center;
+  font-size: 15px;
+  border: none;
+  border-bottom: 2px solid darkorchid;
+
+  outline: none;
+}
+button {
+  height: 35px;
+  width: 35px;
+  background-color: #2f2ffc;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  border-color: transparent;
+  margin-left: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  background-color: darkorchid;
+}
+ol {
+  margin-top: 15px;
+}
+ol li {
+  list-style: none;
+  margin-left: 10px;
+  font-size: 20px;
+  color: #a608f5;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 15px;
+}
+.fa-times {
+  color: #fff;
+  background-color: #2f2ffc;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.fa-times:hover {
+  background-color: #fc0830;
+}
+
+/* 
+  .todo_style {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .todo_style .fa-times {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a608f5;
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: #2f2ffc;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .todo_style .fa-times:hover {
+    color: #2f2ffc;
+  }
+  
+  @media (max-width: 768px) {
+    .center_div {
+      width: 55%;
+    }
+    .todo_style .fa-times {
+      margin: 0 15px o 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    button {
+      margin-left: 5px;
+      min-height: 40px;
+      width: 40px;
+      color: #fff;
+      font-size: 30px;
+    }
+  } */ 
